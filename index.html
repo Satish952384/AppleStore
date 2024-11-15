@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: rgb(235, 232, 232);
+        }
+
+        body {
+            background-color: white;
+            color: rgb(210, 210, 210);
+        }
+
+        /* Header styling */
+        header {
+
+            padding: 10px 20px;
+            border-bottom: 1px solid rgb(214, 214, 214);
+            color: black;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-links li {
+            display: inline;
+            margin: 0 10px;
+            color: white;
+
+
+        }
+
+        /* Hero section styling */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            color: black;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+
+        .hero button {
+            padding: 10px 20px;
+            background-color: blue;
+            color: rgb(255, 239, 239);
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: red;
+        }
+
+        button:active {
+            color: yellow;
+        }
+
+        /* Product section */
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            /* background: white; */
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            width: 200px;
+            
+        }
+
+        .product img {
+            max-width: 100%;
+            border-radius: 5px;
+            max-height: 100px;
+        }
+        
+        p {
+            color: black;
+        }
+
+        a:hover {
+            background-color: rgb(227, 234, 99);
+        }
+
+        p,
+        a:active {
+            color: rgb(255, 0, 0);
+        }
+
+        p3 {
+            color: gray;
+            font-size: x-large;
+            padding: 20px;
+            padding-left: 200px;
+        }
+
+        span {
+            color: blue;
+
+        }
+
+        .box2 {
+            padding-left: 200px;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+
+        .box2 img {
+            height: 400px;
+            width: 250px;
+            margin-left: 70px;
+            padding-right: 50px;
+
+        }
+
+        .box3 {
+            padding-top: 20PX;
+            padding-left: 10px;
+        }
+
+        .box4 {
+            padding-left: 500px;
+            padding-right: 2000px;
+        }
+
+        p5 {
+            color: black;
+            font-size: larger;
+            padding-left: 150px;
+        }
+
+        h2 {
+            /* border: 2px solid black; */
+            border-radius: 30px;
+            text-align: center;
+            color: black;
+
+        }
+
+        h2:hover {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+
+        .box5 {
+            text-decoration: none;
+            color: #0071e3;
+            font-size: 1.2rem;
+            margin: 10px;
+            display: inline-block;
+            padding: 10px 20px;
+            border: 2px solid #0071e3;
+            border-radius: 30px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .box5,
+        h3 {
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            padding-left: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Apple store</div>
+            <ul class="nav-links">
+                <li><a href="https://www.apple.com/in/" style="color: gray;">Home</a></li>
+                <li><a href="https://www.apple.com/in/store" style="color: gray;">Products</a></li>
+                <li><a href="https://www.apple.com/in/shop/accessories/all" style="color: gray;"">Accessories</a></li>
+                <li><a href=" https://support.apple.com/en-in" style="color: gray;"">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero section -->
+    <section class=" hero">
+                        <h1>Welcome to Apple Store</h1>
+                        <p1>Discover the latest products and offers.</p1>
+                        <a href="https://www.apple.com/in/store">
+                            <button>Shop Now</button>
+                        </a>
+                        </section>
+
+
+                        <!-- Product section -->
+                        <section class="products">
+                            <div class="product">
+                                <img src="abc.jpg" alt="Product 1">
+                                <h2>Iphone</h2>
+                                <p><a href="https://www.apple.com/in/shop/buy-iphone/iphone-15" style="color: black;">
+                                        Product description.</p>
+                    </a>
+                    </div>
+                    <div class="product">
+                        <img src="efg.jpg" alt="Product 2">
+                        <H2>Ipad</H2>
+                        <p><a href="https://www.apple.com/in/ipad/" style="color: black;">Product description.</p></a>
+                    </div>
+                    <div class="product">
+                        <img src="applewatch.jpg" alt="Product 2">
+                        <h2>Iwatch</h2>
+                        <p><a href="https://www.apple.com/in/watch/" style="color: black;">Product description.</p></a>
+                    </div>
+                    <div class="product">
+                        <img src="homeapple.jpg" alt="Product 2">
+                        <h2>Apple Home</h2>
+                        <p><a href="https://www.apple.com/in/tv-home//" style="color: black;">Product description.</p>
+                        </a>
+                        </section>
+                        <div class="box1">
+                            <p3><span>The latest.</span> Fresh arrivals to brighten up the festivities.</p3>
+
+                        </div>
+                        <div class="box2">
+                            <a href="https://www.apple.com/in/shop/buy-iphone">
+                                <img src="pic1.jpg.png" alt="img1">
+                            </a>
+                            <a href="https://www.apple.com/in/shop/buy-mac/imac"><img src="pic2.jgp.png" alt="img2"></a>
+                            <a href="https://www.apple.com/in/shop/buy-iphone/iphone-16-pro"><img src="pic3.jpg.png"
+                                    alt="img3"></a>
+                            <a href="https://www.apple.com/in/ipad/"><img src="pic5.jpg.png" alt="img4"></a>
+                        </div>
+                        <div class="box3">
+                            <P3><span>The Apple Store difference.</span> More ways to celebrate with us.</P3>
+                        </div>
+                        <div class="box4">
+                            <a href="https://www.apple.com/in/shop/accessories/all/new-arrivals">
+                                <img src="offer.jpg">
+                            </a>
+                        </div>
+
+                        <div class="box5">
+                            <h3>Quick Links</h3>
+                            <a href="https://secure8.store.apple.com/in/shop/signIn/orders">Order Status</a>
+                            <a href="https://www.apple.com/in/shop/help">Shopping Help</a>
+                        </div>
+
+                    </div>
+</body>
+
+</html>
+
+</body>
+
+</html>
